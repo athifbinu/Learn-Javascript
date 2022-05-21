@@ -378,3 +378,21 @@
 // // const player = [...globelPlayer,...globelPlayer1,"Testing+"];  adding to new in array
 
 // console.log(player);
+
+
+//   rest
+
+
+// const animal =["dog","tiger","cat"];
+
+// const  [a,b, ...rest]=arr;
+
+// console.log(a,rest)
+
+
+          //  arrow function
+
+          
+
+
+
