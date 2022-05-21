@@ -392,7 +392,9 @@
 
           //  arrow function
 
-          
+
+const Myfuc = value => value + 5;
+console.log(Myfuc(10))
 
 
 
