@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eec0c6;
+    background-image: linear-gradient(31deg, #eec0c6 0%, #7ee8fa 74%);
+    
+
+}
+.kichen-item-list
+{
+    text-align: left;
+    list-style: none;
+    perspective: 1000px;
+    
+    
+}
+.kichen-item-list li
+{
+    background-color: #ffac81;
+    background-image: linear-gradient(31deg, #ffac81 0%,#ff928b 74%);
+    padding: 10px 15px;
+    margin: 3px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    animation: 0.3s ease-in-out;
+    
+
+    
+}
+.container
+{
+    padding-top: 70px;
+}
+#add-btn
+{
+    margin-top: 20px;
+}
+
+
+@keyframes slideIn{
+    from{
+        opacity: 0;
+        transform: rotateX(60deg) translateY(-10px);
+
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg) translateY(0px);
+
+    }
+}
