@@ -371,12 +371,10 @@
                // spred operatores
      
   
-const globelplayer = {
-     name : athif,
-     age : 12,
-     place:Koorad,
-};
+// const globelPlayer =["athif","binu","afin"];
+// const globelPlayer1 =["ameen","abay","aswin"];
 
 
- const player = globelplayer;
-console.log(player);
+// // const player = [...globelPlayer,...globelPlayer1,"Testing+"];  adding to new in array
+
+// console.log(player);
