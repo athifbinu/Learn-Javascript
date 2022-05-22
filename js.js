@@ -405,27 +405,70 @@
 // number.forEach(function (num){
 //      console.log(num*2);
 // })
+          
 
 
-const globelPlayer=[
-     {
-          name:"athif",
-          age:12,
-          place:"malapuram",
-     },
-     {
-          name:"anu",
-          age:121,
-          place:"malapurm",
-     },
-    {
-     name:"bilale",
-     age:1,
-     place:"caicurt",
-    }
+          //  Map
+
+// const globelPlayer=[
+//      {
+//           name:"athif",
+//           age:12,
+//           place:"malapuram",
+//      },
+//     {
+//      name:"bilale",
+//      age:20,
+//      place:"caicurt",
+//     },
+//     {
+//        name:"bilale",
+//        age:20,
+//        place:"caicurt",
+//     }
+
+
      
-];
+// ];
 
-const newarry=globelPlayer.map((value)=> value.name);
+// const newarry=globelPlayer.map((value)=> value.name);
 
-console.log(newarry);
+// console.log(newarry);
+
+
+     // filter methood
+
+
+     const globelPlayer=[
+               {
+                    name:"athif",
+                   age:12,
+                    place:"malapuram",
+               },
+              {
+               name:"bilale",
+              age:20,
+               place:"caicurt",
+              },
+              {
+                 name:"bilale",
+                 age:20,
+                  place:"caicurt",
+               }
+          
+          
+               
+          ];
+          
+            newarry = globelPlayer.filter((hello)=> hello.age===20);
+          
+           console.log(newarry);
+
+
+           let array1=["100","250","700","800","700"];
+
+           array1.filter((hai)=> hai.array1===700 );
+
+           console.log(array1);
+
+
