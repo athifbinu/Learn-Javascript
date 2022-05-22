@@ -351,7 +351,7 @@
 
 
 
-//  cocat method
+                      //  cocat method
 
 // const globel=["binu","aswin","anu","akshay"];
 // const globelPlayer=["manu","hilu","anande","abaye"];
@@ -379,8 +379,8 @@
 
 // console.log(player);
 
-
-//   rest
+   
+                 //   rest
 
 
 // const animal =["dog","tiger","cat"];
@@ -393,8 +393,39 @@
           //  arrow function
 
 
-const Myfuc = value => value + 5;
-console.log(Myfuc(10))
+//  const Myfuc = hello => hello + 5;
+//  console.log(Myfuc(5))
 
 
+                           //  for each 
 
+// const number = ["10","20","30","40","50","60","70"];
+
+
+// number.forEach(function (num){
+//      console.log(num*2);
+// })
+
+
+const globelPlayer=[
+     {
+          name:"athif",
+          age:12,
+          place:"malapuram",
+     },
+     {
+          name:"anu",
+          age:121,
+          place:"malapurm",
+     },
+    {
+     name:"bilale",
+     age:1,
+     place:"caicurt",
+    }
+     
+];
+
+const newarry=globelPlayer.map((value)=> value.name);
+
+console.log(newarry);
