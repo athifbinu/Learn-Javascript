@@ -476,6 +476,11 @@
 
           //  reduce method
 
+          const array1=[10,20,40,50,60];
+
+          finelarray=array1.reduce((totel,values) => totel+values,0);
+          console.log(finelarray);
+
 
 
 
@@ -486,7 +491,7 @@
 
 
                          //   loop method
-                         
+
           // const array1=[10,20,40,50,60];
 
           // let totel=0;
