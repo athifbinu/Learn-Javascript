@@ -439,36 +439,68 @@
      // filter methood
 
 
-     const globelPlayer=[
-               {
-                    name:"athif",
-                   age:12,
-                    place:"malapuram",
-               },
-              {
-               name:"bilale",
-              age:20,
-               place:"caicurt",
-              },
-              {
-                 name:"bilale",
-                 age:20,
-                  place:"caicurt",
-               }
+     // const globelPlayer=[
+     //           {
+     //                name:"athif",
+     //               age:12,
+     //                place:"malapuram",
+     //           },
+     //          {
+     //           name:"bilale",
+     //          age:20,
+     //           place:"caicurt",
+     //          },
+     //          {
+     //             name:"bilale",
+     //             age:20,
+     //              place:"caicurt",
+     //           }
           
           
                
-          ];
+     //      ];
           
-            newarry = globelPlayer.filter((hello)=> hello.age===20);
+     //        newarry = globelPlayer.filter((hello)=> hello.age===20);
           
-           console.log(newarry);
+     //       console.log(newarry);
 
 
-           let array1=["100","250","700","800","700"];
+     //       let array1=["100","250","700","800","700"];
 
-           array1.filter((hai)=> hai.array1===700 );
+     //       array1.filter((hai)=> hai.array1===700 );
 
-           console.log(array1);
+     //       console.log(array1);
+
+
+
+
+          //  reduce method
+
+
+
+
+
+
+
+
+
+
+                         //   loop method
+                         
+          // const array1=[10,20,40,50,60];
+
+          // let totel=0;
+
+          // for(let i=0;i<array1.length;i++){
+          //      totel+=array1[i];
+          // }
+
+          // console.log(totel);
+          
+
+
+
+
+
 
 
