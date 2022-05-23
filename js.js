@@ -537,23 +537,53 @@
 
                // sort method
 
-               const months = ['March', 'Jan', 'Feb', 'Dec'];
-                months.sort();
-                console.log(months);
+               // const months = ['March', 'Jan', 'Feb', 'Dec'];
+               //  months.sort();
+               //  console.log(months);
 
 
-                var numArray = [140000, 104, 99]; 
-                numArray.sort(function(a, b) {
-                 return a - b;
-                   });
+               //  var numArray = [140000, 104, 99]; 
+               //  numArray.sort(function(a, b) {
+               //   return a - b;
+               //     });
 
-                 console.log(numArray);
+               //   console.log(numArray);
 
 
-                 const numberarray = [10,20,30,40,50,60];
 
-                 const sortarry=numberarray.sort((a,b)=> b-a);
-                 console.log(sortarry);
+
+               // dom manipulation
+
+
+               //   const numberarray = [10,20,30,40,50,60];
+
+               //   const sortarry=numberarray.sort((a,b)=> b-a);
+               //   console.log(sortarry);
+   
+               //  document.querySelector("h1").innerHTML = "Athif binu";
+
+
+
+
+          //     javascript midiaquerys
+
+
+          const heeader = document.querySelector("h1");
+
+
+          console.log(heeader);
+
+
+
+          const device = window.matchMedia("(max-width:767px)");
+          if (device.matches){
+               heeader.classList.add("banner");
+          }
+
+
+          
+
+
 
 
 
