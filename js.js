@@ -476,10 +476,10 @@
 
           //  reduce method
 
-          const array1=[10,20,40,50,60];
+          // const array1=[10,20,40,50,60];
 
-          finelarray=array1.reduce((totel,values) => totel+values,0);
-          console.log(finelarray);
+          // finelarray=array1.reduce((totel,values) => totel+values,0);
+          // console.log(finelarray);
 
 
 
@@ -502,6 +502,59 @@
 
           // console.log(totel);
           
+
+
+          // find method
+
+
+
+          // const globelPlayer=[
+          //                {
+          //                     name:"athif",
+          //                    age:12,
+          //                     place:"malapuram",
+          //                },
+          //               {
+          //                name:"bilale",
+          //               age:20,
+          //                place:"caicurt",
+          //           },
+          //                {
+          //                  name:"bilale",
+          //                  age:20,
+          //                   place:"kochi",
+          //                }
+                    
+                    
+                         
+               
+          // ];
+
+
+          // findmethod=globelPlayer.find((value)=> value.age===20);
+
+          // console.log(findmethod);
+
+               // sort method
+
+               const months = ['March', 'Jan', 'Feb', 'Dec'];
+                months.sort();
+                console.log(months);
+
+
+                var numArray = [140000, 104, 99]; 
+                numArray.sort(function(a, b) {
+                 return a - b;
+                   });
+
+                 console.log(numArray);
+
+
+                 const numberarray = [10,20,30,40,50,60];
+
+                 const sortarry=numberarray.sort((a,b)=> b-a);
+                 console.log(sortarry);
+
 
 
 
