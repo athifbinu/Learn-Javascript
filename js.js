@@ -568,19 +568,28 @@
           //     javascript midiaquerys
 
 
-          const heeader = document.querySelector("h1");
+          // const heeader = document.querySelector("h1");
 
 
-          console.log(heeader);
+          // console.log(heeader);
 
 
 
-          const device = window.matchMedia("(max-width:767px)");
-          if (device.matches){
-               heeader.classList.add("banner");
-          }
+          // const device = window.matchMedia("(max-width:767px)");
+          // if (device.matches){
+          //      heeader.classList.add("banner");
+          // }
 
 
+
+          // event loop
+
+          setTimeout(()=>{
+               console.log("running 2");
+          },5000);
+
+          console.log("running 1");
+          console.log("running 3");
           
 
 
