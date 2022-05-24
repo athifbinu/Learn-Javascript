@@ -582,16 +582,22 @@
 
 
 
-          // event loop
+          // event loop   //callback function
 
-          setTimeout(()=>{
-               console.log("running 2");
-          },5000);
+          // setTimeout(()=>{
+          //      console.log("running 2");
+          // },5000);
 
-          console.log("running 1");
-          console.log("running 3");
+          // console.log("running 1");
+          // console.log("running 3");
           
 
+          function text(){
+               console.log("hello athif");
+          }
+         
+
+          setTimeout(text,5000);
 
 
 
