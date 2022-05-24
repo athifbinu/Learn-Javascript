@@ -592,12 +592,64 @@
           // console.log("running 3");
           
 
-          function text(){
-               console.log("hello athif");
-          }
+          // function text(){
+          //      console.log("hello athif");
+          // }
          
 
-          setTimeout(text,5000);
+          // setTimeout(text,5000);
+
+
+          // Promise function
+
+//   const {resole,riject} = requre("promice");
+
+//   function getName(){
+//        return new Promise((resole,riject)=>{
+//             setTimeout(()=>{
+//                  resole("Hello athif")
+//             },2000)
+//        })
+//   }
+
+
+
+//   function getNumber(){
+//      return new Promise((resole,riject)=>{
+//           setTimeout(()=>{
+//                resole("75940123460")
+//           },3000)
+//      })
+// }
+
+
+
+// Promise.all([getName(),getNumber()]).then((result)=>{
+//      console.log(result)
+// })
+
+
+
+
+     // promice alle method
+
+     const Promise1= new Promise((resolve,Object) =>{
+          resolve(["javascript","java"]);
+     });
+     const Promise2=new Promise((resolve,Object) =>{
+          resolve(["react","anguler"]);
+     })
+   
+
+      const helloAthif = Promise.allSettled([Promise1,Promise2]);
+
+
+
+      helloAthif.then((res)=>{
+           console.log(res);
+      });
+
+
 
 
 
