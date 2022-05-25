@@ -35,6 +35,17 @@
 // full checking
 // logicel and operatores
 
+
+
+     //   and operator
+
+     // let a = 10;
+     // let b= 50;
+
+     // console.log(a==101 && b==50);
+
+     
+
 // var a = 10;
 // var b = 30;
 
@@ -633,21 +644,51 @@
 
      // promice alle method
 
-     const Promise1= new Promise((resolve,Object) =>{
-          resolve(["javascript","java"]);
-     });
-     const Promise2=new Promise((resolve,Object) =>{
-          resolve(["react","anguler"]);
-     })
+     // const Promise1= new Promise((resolve,Object) =>{
+     //      resolve(["javascript","java"]);
+     // });
+     // const Promise2=new Promise((resolve,Object) =>{
+     //      resolve(["react","anguler"]);
+     // })
    
 
-      const helloAthif = Promise.allSettled([Promise1,Promise2]);
+     //  const helloAthif = Promise.allSettled([Promise1,Promise2]);
 
 
 
-      helloAthif.then((res)=>{
-           console.log(res);
-      });
+     //  helloAthif.then((res)=>{
+     //       console.log(res);
+     //  });
+
+
+     //   any methhof in promice
+
+
+     //  const Promise1= new Promise((resolve,Object) =>{
+     //       resolve(["javascript","java"]);
+     //  });
+     //  const Promise2=new Promise((resolve,Object) =>{
+     //       resolve(["react","anguler"]);
+     //  })
+   
+
+     //   const helloAthif = Promise.any([Promise1,Promise2]);
+
+
+
+     //   helloAthif.then((res)=>{
+     //   console.log(res);
+     //   });
+
+
+
+
+   
+     
+
+
+
+
 
 
 
