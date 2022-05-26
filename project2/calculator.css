@@ -13,6 +13,7 @@ body
     color: black;
     font-weight: bold;
     font-family: sans-serif;
+    
 
 }
 .container
@@ -23,6 +24,7 @@ body
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 60px 5px;
 }
 .casio
 {
