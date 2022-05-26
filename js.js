@@ -681,6 +681,26 @@
      //   });
 
 
+     const screen = document.getElementById('screen');
+
+     function Btnclick(value)
+     {
+           screen.value+=value;
+     }
+
+
+     function clearBtn()
+     {
+          screen.value="";
+     }
+
+     function operationBtn()
+     {
+          const result=eval(screen.value);
+          screen.value=result;
+     }
+
+
 
 
    
