@@ -14,12 +14,7 @@ function addkichenitems(){
 
 }
 
-// // crete trash button
 
-// let trashbutton =document.createElement('i');
-// trashbutton.classList.add("fa fa-trash");
-// li.appendChild(trashbutton);
-// kitcheninput.focus();
 
 
 // step 1

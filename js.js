@@ -87,7 +87,7 @@
 
 // let a = ['1','2','3']
 
-// console.log(a.unshift(4,5));
+// console.log(a.shift(4,5));
 // console.log(a);
 
 // concat
@@ -100,11 +100,16 @@
 
 // console.log(totel);
 
-// slice
+// let j=0;
+// while (j<=10) {
+//      console.log(j);
+//      j++;
+     
+// }
 
-// let foods = ['rice','curry','chicken'];
 
-// console.log(foods.slice(1,3));
+
+
 
 
 //   object
@@ -136,13 +141,16 @@
 // console.log(cycle);
 
 
+
+
 // pop
 
-//  var cycle = ['pedel','handle','speed'];
+//  var cycle = ['pedel','gear','tyre'];
 
 //  var removedArray = cycle.pop();
 
 //  console.log(removedArray);
+
 
 
 // Math object
@@ -303,6 +311,8 @@
 // }       
 
 // console.log(user);
+
+
 
  
  
@@ -471,7 +481,7 @@
                
      //      ];
           
-     //        newarry = globelPlayer.filter((hello)=> hello.age===20);
+     //        newarry = globelPlayer.filter((hello)=> hello.age===12);
           
      //       console.log(newarry);
 
@@ -483,11 +493,37 @@
      //       console.log(array1);
 
 
+     // let ages=["100","15","17","250"];
+     // console.log(ages.filter(checkadualts));
+
+     
+
+     // function checkadualts(age){
+     //      return age<=18;
+     // }
+               //     foreach method
+
+          //      let num=["10","20"];
+
+          //      let sum=0;
+          //      num.forEach((number) => {
+          //           sum = sum  + parseInt(number);
+          //     });
+          //      console.log(sum);
+
+        
+
+
+               
+     
+
+
+
 
 
           //  reduce method
 
-          // const array1=[10,20,40,50,60];
+          // const array1=[10,20];
 
           // finelarray=array1.reduce((totel,values) => totel+values,0);
           // console.log(finelarray);
@@ -518,33 +554,38 @@
           // find method
 
 
+     const globelPlayer=[
+               {
+                    name:"athif",
+                   age:12,
+                    place:"malapuram",
+               },
+              {
+               name:"bilale",
+              age:20,
+               place:"Kannur",
+              },
+              {
+                 name:"ashiq",
+                 age:40,
+                  place:"calicut",
+               }    
+          ];
 
-          // const globelPlayer=[
-          //                {
-          //                     name:"athif",
-          //                    age:12,
-          //                     place:"malapuram",
-          //                },
-          //               {
-          //                name:"bilale",
-          //               age:20,
-          //                place:"caicurt",
-          //           },
-          //                {
-          //                  name:"bilale",
-          //                  age:20,
-          //                   place:"kochi",
-          //                }
-                    
-                    
-                         
-               
-          // ];
+          const totel=globelPlayer.find((item)=>{
+               item.age<20;
+          });
+
+          console.log(totel);
 
 
-          // findmethod=globelPlayer.find((value)=> value.age===20);
 
-          // console.log(findmethod);
+
+       
+
+
+
+
 
                // sort method
 
@@ -700,21 +741,37 @@
      //      screen.value=result;
      // }
 
-     
+     // let btn=document.querySelector('button');
+     // let orderlist=document.querySelector('order-list');
 
 
+// setTimeout(function(){
+//      alert("Athif is hacked you");
+
+// },5000);
+
+   //     call back function
+
+// function order(){
+//      document.body.style.backgroundColor='green';
+//      alert("You Order is plsed Now")
+// }
+// const btn=document.querySelector('button');
+// btn.addEventListener('click',order); 
 
 
-   
-     
+                    // hosting
 
+// catname("Tiger");
 
+// function catname(name){
+//      console.log("My cat Name is "+name);
+// }
 
-
-
-
-
-
+// Myname("Athif");
+// function Myname(hello){
+//      console.log("My name is Muhammed "+hello)
+// }
 
 
 
