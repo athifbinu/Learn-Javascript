@@ -554,29 +554,29 @@
           // find method
 
 
-     const globelPlayer=[
-               {
-                    name:"athif",
-                   age:12,
-                    place:"malapuram",
-               },
-              {
-               name:"bilale",
-              age:20,
-               place:"Kannur",
-              },
-              {
-                 name:"ashiq",
-                 age:40,
-                  place:"calicut",
-               }    
-          ];
+     // const globelPlayer=[
+     //           {
+     //                name:"athif",
+     //               age:12,
+     //                place:"malapuram",
+     //           },
+     //          {
+     //           name:"bilale",
+     //          age:20,
+     //           place:"Kannur",
+     //          },
+     //          {
+     //             name:"ashiq",
+     //             age:40,
+     //              place:"calicut",
+     //           }    
+     //      ];
 
-          const totel=globelPlayer.find((item)=>{
-               item.age<20;
-          });
+     //      const totel=globelPlayer.find((item)=>{
+     //           item.age<20;
+     //      });
 
-          console.log(totel);
+     //      console.log(totel);
 
 
 
@@ -631,17 +631,22 @@
           // if (device.matches){
           //      heeader.classList.add("banner");
           // }
-
-
-
+     // Promise function
           // event loop   //callback function
 
           // setTimeout(()=>{
           //      console.log("running 2");
-          // },5000);
+          // },1);
 
           // console.log("running 1");
           // console.log("running 3");
+
+
+     
+
+
+
+
           
 
           // function text(){
@@ -685,24 +690,52 @@
 
      // promice alle method
 
-     // const Promise1= new Promise((resolve,Object) =>{
-     //      resolve(["javascript","java"]);
-     // });
-     // const Promise2=new Promise((resolve,Object) =>{
-     //      resolve(["react","anguler"]);
-     // })
-   
+//      const Promise1= new Promise((resolve,riject)=>{
+//           resolve(["javascript","java"]);
+//      })
+     
+//      const Promise2= new Promise((resolve,riject)=>{
+//           resolve(["React","NodeJs"]);
+//      })
+//                                  This is a normel callback method
+//     Promise1.then((res)=>{
+//          console.log(res);
+//     })
+//                          //     this funtion are call two tymes This problem are solved Promise all
+//     Promise2.then((res)=>{
+//      console.log(res);
+// })
 
-     //  const helloAthif = Promise.allSettled([Promise1,Promise2]);
+// const Promise1= new Promise((resolve,riject)=>{
+//      resolve(["javascript","java"]);
+// })
+
+// const Promise2= new Promise((resolve,riject)=>{
+//      resolve(["React","NodeJs"]);
+     // riject("api failed");
+// })                                                     //This is a promice method
+
+//   const allpromice=Promise.all([Promise1,Promise2]);   // this is the result they call 
+
+//  allpromice.then((res)=>{
+//       console.log(res);                                 
+//  })
+
+//     allpromice
+//     .then((res)=>{
+//          console.log(res.flat());
+//     })
+//     .catch((err)=>{
+//          console.log(err);
+
+//     })
+ 
 
 
 
-     //  helloAthif.then((res)=>{
-     //       console.log(res);
-     //  });
 
 
-     //   any methhof in promice
+     //   any methhod in promice
 
 
      //  const Promise1= new Promise((resolve,Object) =>{
@@ -774,8 +807,97 @@
 // }
 
 
+//    arrow function
+
+// const graet= () =>{
+//      console.log("hi");
+// }
+
+// graet();
+
+
+          //  callback funtion
+
+          // function add(num1,num2,callback) {
+          //      let err=false
+          //      if(num1==0){
+          //           err=true
+          //      }
+          //      callback(num1+num2,err)
+          // }
+
+
+          // add(0,20,(sum,err)=>{
+          //      if(err){
+          //           console.log("first number is Zero");
+          //      }else{
+          //           console.log(sum);
+          //      }
+          // })
+ 
+
+          // promice
+
+// const { resolve } = require('promise');
+// const promice=require('promise');
+
+//           function add(num1,num2){
+//                return new promice((resolve,riject)=>{
+//                     if(num1==0){
+//                          riject("The first number is zero");
+//                     }
+//                })
+
+//           } 
+//            add(0,20).then((sum)=>{     //add are recive In resolve
+//                console.log(sum); 
+
+//            }).catch((err)=>{            //catch are are resive in riject
+//                console.log(err)
+//           })
 
 
 
 
 
+
+     //  async/await
+
+
+
+   function getName(){
+        return new Promise((resolve,riject)=>{
+             setTimeout(()=>{
+                  resolve("Athif");
+             },3000);
+        }) 
+   }
+
+   function getMobile(){
+     return new Promise((resolve,riject)=>{     
+          setTimeout(()=>{
+               resolve("5265959526");
+          },2000);
+     })
+}
+
+async function getUser(){
+     let name=await getName()             //awaite is waiting at that funtion                                  //async funtion omportent to create awaite
+     console.log(name);
+     let Mobile=await getMobile()
+     console.log(Mobile);
+
+}
+getUser();
+
+
+
+
+
+
+
+    
+
+
+   
+          
