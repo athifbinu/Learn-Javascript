@@ -865,30 +865,55 @@
 
 
 
-   function getName(){
-        return new Promise((resolve,riject)=>{
-             setTimeout(()=>{
-                  resolve("Athif");
-             },3000);
-        }) 
-   }
+//    function getName(){
+//         return new Promise((resolve,riject)=>{
+//              setTimeout(()=>{
+//                   resolve("Athif");
+//              },3000);
+//         }) 
+//    }
 
-   function getMobile(){
-     return new Promise((resolve,riject)=>{     
-          setTimeout(()=>{
-               resolve("5265959526");
-          },2000);
-     })
-}
+//    function getMobile(){
+//      return new Promise((resolve,riject)=>{     
+//           setTimeout(()=>{
+//                resolve("5265959526");
+//           },2000);
+//      })
+// }
 
-async function getUser(){
-     let name=await getName()             //awaite is waiting at that funtion                                  //async funtion omportent to create awaite
-     console.log(name);
-     let Mobile=await getMobile()
-     console.log(Mobile);
+// async function getUser(){
+//      let name=await getName()             //awaite is waiting at that funtion                                  //async funtion omportent to create awaite
+//      console.log(name);
+//      let Mobile=await getMobile()
+//      console.log(Mobile);
 
-}
-getUser();
+//  }
+// getUser();
+
+
+
+            //sorting
+
+            const prize=[100,1000,2500,1,25,50,2];
+            
+            prize.sort();
+
+            const increseSort=prize.sort(
+                 (a,b) => a-b)
+                 console.log(increseSort);
+
+                 const decreasesort=prize.sort(
+                    (a,b) => b-a)
+                    console.log(decreasesort);
+                    
+
+
+
+
+
+
+          
+
 
 
 
