@@ -894,23 +894,47 @@
 
             //sorting
 
-            const prize=[100,1000,2500,1,25,50,2];
+          //   const prize=[100,1000,2500,1,25,50,2];
             
-            prize.sort();
+          //   prize.sort();
 
-            const increseSort=prize.sort(
-                 (a,b) => a-b)
-                 console.log(increseSort);
+          //   const increseSort=prize.sort(
+          //        (a,b) => a-b)
+          //        console.log(increseSort);
 
-                 const decreasesort=prize.sort(
-                    (a,b) => b-a)
-                    console.log(decreasesort);
-                    
-
+          //        const decreasesort=prize.sort(
+          //           (a,b) => b-a)
+          //           console.log(decreasesort);
 
 
 
+                  //find minum and maximum value 
+     //  const maximun=Math.max(10,20,50,80,100,500,200);
+     //  const Minimum=Math.min(10,20,50,80,100,500,200)
 
+
+     //  console.log(maximun,Minimum);
+
+
+     // deastructuring
+
+     // const obj1={
+     //      name:"Athif",
+     //      Place:"KOOrad",
+     //      Job:"Mern Stack Developer",
+     // }
+
+     // function hello(){
+     //      const {
+     //           name,
+     //           Place,
+     //           Job
+
+     //      }=obj1;
+     //      console.log(name,Place,Place);
+     // }
+
+     // hello();
 
           
 
