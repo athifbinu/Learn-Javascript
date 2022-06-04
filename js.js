@@ -72,7 +72,7 @@
 // var a= 50;
 // var b= 60;
 
-// document.write(!(b=60))
+// console.log(!(b=60))
 
   
 // Array
@@ -100,12 +100,39 @@
 
 // console.log(totel);
 
+
+// let num1 =[10,20,30]
+// let num2 =[40,50,60]
+// let num3=num1.concat(num2);
+// console.log(num3);
+
+
 // let j=0;
 // while (j<=10) {
 //      console.log(j);
 //      j++;
      
 // }
+    
+
+    //2 dimentionel array
+
+// function printArray(arr) {
+//      for (var i=0;i<arr.length;i++){
+//        for(var j=0;j<arr[0].length;j++){
+//          console.log(arr[i][j]);
+//        }   
+//      }
+//    }
+//    var arr = [[1, 2],
+//               [3, 4],
+//               [5, 6]];
+   
+//    printArray(arr) 
+
+
+
+
 
 
 
@@ -143,6 +170,8 @@
 
 
 
+
+
 // pop
 
 //  var cycle = ['pedel','gear','tyre'];
@@ -155,8 +184,8 @@
 
 // Math object
 
-// to find squre root of a number
-// var a = 100;
+// to find squre root of a number 
+// var a = 10;
 
 // console.log(Math.sqrt(a));
 
@@ -166,7 +195,14 @@
 
 // console.log(Math.abs(a));
 
+// function negetive(a,b){
+//      return Math.abs(a+b);
+
+// }
+// console.log(negetive(5,2));
+
 //                     java script function
+
 
 // function coading(Athif) {
 //      console.log("Self learning");
@@ -202,7 +238,7 @@
 //      }
 // }
 
-// console.log(value.developrs.persone[1].name);
+// console.log(value.developrs.persone[1].age);
 
 
 
@@ -226,14 +262,44 @@
 //           }
 //      }
 // }
+// console.log(food.kichen.tea.teamaking[1]);
+
+
 // function cofeeMaking() {
 //      console.log("step 1 : add water");    //function calling
 //      console.log("step 1 : add suger");
 //      console.log("step 1 : add milk");
 //      console.log("step 1 : add add cofee powder");
 // }
-// console.log(food.kichen.tea.teamaking[0]);
-// cofeeMaking();
+
+
+
+
+
+
+// function teamaking(){
+//      console.log("step 1 : add water");    
+//      console.log("step 1 : add suger");
+//      console.log("step 1 : add milk");
+//      console.log("step 1 : add add tea powder");
+// }
+
+//   if(cofeeMaking()){
+//        console.log("yes Iam interested");
+//   }
+//   else{
+//        console.log("iam not intrested");
+//   }
+
+//   cofeeMaking();
+
+
+
+
+
+  
+   
+
 
 
 // let company={
@@ -257,21 +323,47 @@
 // console.log(company.datas.employedetales);
 
 
-// function red(color){
-//      if (color=== 'green') {
-//           return true;
-          
-//      }
-//      else {
-//           return false;
-//      }
-// }
 
-// console.log(color);
+
+
+     // let student1 = ['athif',24]
+     // let student2 =['binu',10]
+
+     // const totel=[student1,student2];
+     // console.log(totel.concat(student1));
+
+
 
 
 
                   // nested loop
+
+        
+
+         let totelarray=(arr,char)=> {
+              for(let i=0;i<arr.length;i++) {
+                   for(let j=1; j<=arr[i];j++){
+                        console.log(j);
+                   }
+              }
+         }
+
+                 
+         totelarray([2,5,3],'#');
+
+         
+               
+
+
+
+
+
+
+
+
+
+
+                  
 
 
 
@@ -279,14 +371,28 @@
 // popup function
 
 // function display() {
-//      // confirm("Athif is hacked you");
-//      // alert("Athid is hacked you");
-//      // prompt("Athif is hacked you");
-
-//      // document.body.style.backgroundColor="red"; to change background color on body
+//      confirm("Athif is hacked you");
+//      alert("Athid is hacked you");
+//      prompt("Athif is hacked you");
 
      
+     
 // }
+
+// const btn=document.querySelector('button');
+
+
+// function clickme(){
+//      prompt("you are hacked");
+//      colorchange.style.backgroundColor('red');
+//      btn.style.body.backgroundColor = 'red';
+// }
+
+
+
+
+
+
 
 //  function myfuction(z) {
 //       let a = 5;
@@ -937,6 +1043,9 @@
      // hello();
 
      //lexicel method
+
+
+
 
 
 
