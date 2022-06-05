@@ -336,22 +336,43 @@
 
 
 
-                  // nested loop
+               //    nested loop
 
         
 
-         let totelarray=(arr,char)=> {
-              for(let i=0;i<arr.length;i++) {
-                   for(let j=1; j<=arr[i];j++){
-                        console.log(j);
-                   }
-              }
-         }
+     //     let totelarray=(arr,char)=> {
+     //          for(let i=0;i<arr.length;i++) {
+     //               for(let j=1; j<=arr[i];j++){
+     //                    console.log(j);
+     //               }
+     //          }
+     //     }
 
                  
-         totelarray([2,5,3],'#');
+     //     totelarray([2,5,3],'#');
 
-         
+
+
+     let totelarray=(arr,char)=> {
+          let charRepeat='';
+          for(let i=0;i<arr.length;i++) {
+               for(let j=1; j<=arr[i];j++){
+                 charRepeat +=char
+               }
+               console.log(charRepeat);
+          }
+     }
+
+             
+     totelarray([1,2,3,4,5,6,7,8,9,10],'*');
+
+
+
+
+
+
+
+
                
 
 
@@ -407,18 +428,13 @@
  
 
 //        Object
-
-//  let user = {
-
-//      name : "Athif",
-//      age:5,
-//      location: "malapuram",
-
-// }       
+//let user={
+//      name:"Athif",
+//      Age:"12",
+//      Position:"Mern stack developer",
+// }
 
 // console.log(user);
-
-
 
  
  
@@ -426,9 +442,9 @@
  
 //     string methods
 
-//   let name = "Muhammed Athif m";    
+//    let name = "Muhammed Athif m";    
 
-//   console.log(name.length);       to find length on a String
+//   console.log(name.length);      // to find length on a String
 
 
 
