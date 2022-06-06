@@ -461,24 +461,25 @@
 //  }
 
 
-function numberchecking(num){
-     if(num % 2 ==0){
-          console.log('${num} is a even number');
-     }
-     else{
-          console.log('${num} is  a odd number')
-     }
-}
+// function numberchecking(num){
+//      if(num % 2 ==0){
+//           console.log(' is a even number');
+//      }
+//      else{
+//           console.log(' is  a odd number')
+//      }
+// }
 
-numberchecking(10)
-numberchecking(5)
+// numberchecking(10)
+// numberchecking(5)
+
 
 
 
 
 // switch statement
 
-// let fruts = "banana";
+// let fruts = "heloo";
 
 // switch (fruts) {
 //      case "apple":
@@ -491,6 +492,26 @@ numberchecking(5)
 //             console.log("i dint get food");
      
 // }
+
+ 
+//    let foods="juce";
+
+//   switch (foods) {
+//        case "biriyani":
+//             console.log("Rs : 90")
+//             break;
+
+//             case "meal":
+//                  console.log("Rs is 70");
+//                  break;
+
+//                  case "mandi":
+//                       console.log("Rs is 140");
+//                       break
+//                       default :
+//                       console.log("They are not available");
+
+//   }
 
 
 //   loop
