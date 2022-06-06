@@ -546,6 +546,12 @@
 
 // console.log(b);
 
+// const ArrDeastructuring=[1,2,3,4];
+// const [a,b,c,d] = ArrDeastructuring;
+// console.log(d);
+
+
+
                // spred operatores
      
   
@@ -553,9 +559,17 @@
 // const globelPlayer1 =["ameen","abay","aswin"];
 
 
-// // const player = [...globelPlayer,...globelPlayer1,"Testing+"];  adding to new in array
+//  const player = [...globelPlayer,...globelPlayer1,"Testing+"];  //adding to new in array
 
 // console.log(player);
+
+
+
+//  let num1 = [10,20,50];
+//  let num2 =[70,80,90];
+
+//  totel=[...num1,...num2];
+//  console.log(totel);
 
    
                  //   rest
@@ -563,9 +577,18 @@
 
 // const animal =["dog","tiger","cat"];
 
-// const  [a,b, ...rest]=arr;
+// const arr = [a,b, ...rest]=arr;
 
-// console.log(a,rest)
+// console.log(a,b,rest);
+
+// function test(...remaining) {
+//      console.log(remaining)
+// }
+
+// test(50,80,30,40);
+ 
+ 
+ 
 
 
           //  arrow function
@@ -581,37 +604,60 @@
 
 
 // number.forEach(function (num){
-//      console.log(num*2);
+//      console.log(num+2);
+// })
+
+
+// socity=[
+//      {
+//           name:"athif",
+//           age:12,
+//           place:"Koorad",
+//      },
+//      {
+//           name:"binu",
+//           age:15,
+//           place:"malapuram",
+//      },
+//      {
+//           name:"athifBinu",
+//           age:18,
+//           place:"india",
+//      }
+// ]
+
+// socity.forEach((hello)=>{            //foreach method are call callback funtion
+//      console.log(hello.place);
 // })
           
 
 
           //  Map
 
-// const globelPlayer=[
-//      {
-//           name:"athif",
-//           age:12,
-//           place:"malapuram",
-//      },
-//     {
-//      name:"bilale",
-//      age:20,
-//      place:"caicurt",
-//     },
-//     {
-//        name:"bilale",
-//        age:20,
-//        place:"caicurt",
-//     }
+const globelPlayer=[
+     {
+          name:"athif",
+          age:12,
+          place:"malapuram",
+     },
+    {
+     name:"bilale",
+     age:20,
+     place:"caicurt",
+    },
+    {
+       name:"bilale",
+       age:20,
+       place:"caicurt",
+    }
 
 
      
-// ];
+];
 
-// const newarry=globelPlayer.map((value)=> value.name);
+const newarry=globelPlayer.map((value)=> value.name);
 
-// console.log(newarry);
+console.log(newarry);
 
 
      // filter methood
@@ -682,7 +728,7 @@
 
           // const array1=[10,20];
 
-          // finelarray=array1.reduce((totel,values) => totel+values,0);
+          // finelarray=array1.reduce((totel,values) => totel+values);
           // console.log(finelarray);
 
 
