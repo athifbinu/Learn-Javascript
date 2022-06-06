@@ -353,19 +353,22 @@
 
 
 
-     let totelarray=(arr,char)=> {
-          let charRepeat='';
-          for(let i=0;i<arr.length;i++) {
-               for(let j=1; j<=arr[i];j++){
-                 charRepeat +=char
-               }
-               console.log(charRepeat);
-          }
-     }
+     // let totelarray=(arr,char)=> {
+     //      let charRepeat='';
+     //      for(let i=0;i<arr.length;i++) {
+     //           for(let j=1; j<=arr[i];j++){   
+     //             charRepeat +=char
+     //           }
+     //           console.log(charRepeat);
+     //      }
+     // }
 
              
-     totelarray([1,2,3,4,5,6,7,8,9,10],'*');
+     // totelarray([1,2,3,4,5,6,7,8,9,10],'*');
 
+
+
+   
 
 
 
@@ -457,9 +460,20 @@
       
 //  }
 
-// else{
-//      console.log(false);
-// }
+
+function numberchecking(num){
+     if(num % 2 ==0){
+          console.log('${num} is a even number');
+     }
+     else{
+          console.log('${num} is  a odd number')
+     }
+}
+
+numberchecking(10)
+numberchecking(5)
+
+
 
 
 // switch statement
