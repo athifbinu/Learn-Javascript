@@ -634,30 +634,30 @@
 
           //  Map
 
-const globelPlayer=[
-     {
-          name:"athif",
-          age:12,
-          place:"malapuram",
-     },
-    {
-     name:"bilale",
-     age:20,
-     place:"caicurt",
-    },
-    {
-       name:"bilale",
-       age:20,
-       place:"caicurt",
-    }
+// const globelPlayer=[
+//      {
+//           name:"athif",
+//           age:12,
+//           place:"malapuram",
+//      },
+//     {
+//      name:"bilale",
+//      age:20,
+//      place:"caicurt",
+//     },
+//     {
+//        name:"bilale",
+//        age:20,
+//        place:"caicurt",
+//     }
 
 
      
-];
+// ];
 
-const newarry=globelPlayer.map((value)=> value.name);
+// const newarry=globelPlayer.map((value)=> value.age);
 
-console.log(newarry);
+// console.log(newarry);
 
 
      // filter methood
@@ -792,7 +792,7 @@ console.log(newarry);
 
                // sort method
 
-               // const months = ['March', 'Jan', 'Feb', 'Dec'];
+               // const months = [80,50,1,12,10];
                //  months.sort();
                //  console.log(months);
 
@@ -835,11 +835,11 @@ console.log(newarry);
           //      heeader.classList.add("banner");
           // }
      // Promise function
-          // event loop   //callback function
+          // event loop   //callback function  //syncronus funtion
 
           // setTimeout(()=>{
           //      console.log("running 2");
-          // },1);
+          // },5000);
 
           // console.log("running 1");
           // console.log("running 3");
@@ -1052,12 +1052,52 @@ console.log(newarry);
 //                })
 
 //           } 
-//            add(0,20).then((sum)=>{     //add are recive In resolve
+//            add(10,20).then((sum)=>{     //add are recive In resolve
 //                console.log(sum); 
 
 //            }).catch((err)=>{            //catch are are resive in riject
 //                console.log(err)
 //           })
+           
+// const myPromise = new Promise((resolve, reject) => {
+//      setTimeout(() => {
+//        resolve('foo');
+//      }, 300);
+//    });
+   
+//     result=myPromise
+
+//     console.log(result)
+
+
+//    const promise = new Promise((resolve,riject)=>{
+//         riject("success");                  //this is api
+//    })
+
+//    promise                               //they are calling
+//    .then((Response)=>{                   //promice are used to avoid call backfuntion
+//         console.log(Response);
+//    })
+//    .catch((Error)=>{
+//         console.log(Error)
+// //    })
+    
+//    });
+
+   const promise = new Promise((resolve,riject)=>{
+     riject("feald");                  //this is api
+})
+
+
+promise.then((Response)=>{                //this is eerror funtion.this avvoid it used to catch metthod
+     console.log(Response)           //catch are  used to handle in error message
+}).catch((Error)=>{
+     console.log(Error)
+})
+
+
+
+
 
 
 
@@ -1083,6 +1123,9 @@ console.log(newarry);
 //           },2000);
 //      })
 // }
+// // Promise.all([getName(),getMobile()]).then((result)=>{
+// // console.log(result);
+// // })
 
 // async function getUser(){
 //      let name=await getName()             //awaite is waiting at that funtion                                  //async funtion omportent to create awaite
@@ -1139,7 +1182,8 @@ console.log(newarry);
 
      // hello();
 
-     //lexicel method
+     
+
 
 
 
