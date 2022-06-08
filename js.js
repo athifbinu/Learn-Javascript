@@ -915,7 +915,7 @@
 
 // const Promise2= new Promise((resolve,riject)=>{
 //      resolve(["React","NodeJs"]);
-     // riject("api failed");
+//      riject("api failed");
 // })                                                     //This is a promice method
 
 //   const allpromice=Promise.all([Promise1,Promise2]);   // this is the result they call 
@@ -967,7 +967,21 @@
 
 
      // function clearBtn()
-     // {
+     // {   //  const Promise1= new Promise((resolve,Object) =>{
+     //       resolve(["javascript","java"]);
+     //  });
+     //  const Promise2=new Promise((resolve,Object) =>{
+     //       resolve(["react","anguler"]);
+     //  })
+   
+
+     //   const helloAthif = Promise.any([Promise1,Promise2]);
+
+
+
+     //   helloAthif.then((res)=>{
+     //   console.log(res);
+     //   });
      //      screen.value="";
      // }
 
@@ -1010,7 +1024,7 @@
 // }
 
 
-//    arrow function
+
 
 // const graet= () =>{
 //      console.log("hi");
@@ -1074,17 +1088,17 @@
 //         riject("success");                  //this is api
 //    })
 
-//    promise                               //they are calling
+//    Promise                               //they are calling
 //    .then((Response)=>{                   //promice are used to avoid call backfuntion
 //         console.log(Response);
 //    })
 //    .catch((Error)=>{
 //         console.log(Error)
-// //    })
+//    })
     
-//    });
 
-//    const promise = new Promise((resolve,riject)=>{
+
+//    const Promise = new Promise((resolve,riject)=>{
 //      riject("feald");                  //this is api
 // })
 
@@ -1113,21 +1127,21 @@
 //    function getName(){
 //         return new Promise((resolve,riject)=>{
 //              setTimeout(()=>{
-//                   resolve("Athif");
+//                   resolve("Athif");     //api 1
 //              },3000);
 //         }) 
 //    }
 
 //    function getMobile(){
 //      return new Promise((resolve,riject)=>{     
-//           setTimeout(()=>{
+//           setTimeout(()=>{                                   //api 2
 //                resolve("5265959526");
 //           },2000);
 //      })
 // }
-// // Promise.all([getName(),getMobile()]).then((result)=>{
-// // console.log(result);
-// // })
+// Promise.all([getName(),getMobile()]).then((result)=>{
+// console.log(result);
+// })
 
 // async function getUser(){
 //      let name=await getName()             //awaite is waiting at that funtion                                  //async funtion omportent to create awaite
@@ -1156,7 +1170,9 @@
 
 
 
-                  //find minum and maximum value 
+               //    find minum and maximum value 
+
+
      //  const maximun=Math.max(10,20,50,80,100,500,200);
      //  const Minimum=Math.min(10,20,50,80,100,500,200)
 
@@ -1188,16 +1204,16 @@
 
  
 
-     const person = {
-          fullName:'athif',
-          lastNmae:'binu',
-          Place:'Koorad',
-         fullName() {
-               console.log(this)
-          }
-     }
+//      const person = {
+//           fullName:'athif',
+//           lastNmae:'binu',
+//           Place:'Koorad',
+//          fullName() {
+//                console.log(this)
+//           }
+//      }
      
-  console.log(person.fullName());
+//   console.log(person.fullName());
 
 
 
