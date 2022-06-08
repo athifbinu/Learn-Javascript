@@ -1,13 +1,30 @@
 
   const counter=document.getElementById('counter');
   const incrementBtn=document.getElementById('Incremet');
-  const ResetBtn=document.getElementById('Reset');
   const DecrementBtn=document.getElementById('Decrement');
+  const ResetBtn=document.getElementById('Reset');
+ 
 
 
   let counterValue=0;
 
-  incrementBtn.addEventListener('click',function (event){           //to adding button funtion
-     counterValue+=1                                                 //countervalue+1
+  incrementBtn.addEventListener("click",function (event){           
+     counterValue+=1;
+     counter.innerHTML=counterValue                                                          
 
   })
+
+
+
+  DecrementBtn.addEventListener("click",function (event){           
+    counterValue-=1;     
+    counter.innerHTML=counterValue                                        
+
+ })
+
+
+ ResetBtn.addEventListener("click",function (event){           
+    counterValue=0;     
+    counter.innerHTML=counterValue                                        
+
+ })
