@@ -1,8 +1,13 @@
 
+  const counter=document.getElementById('counter');
+  const incrementBtn=document.getElementById('Incremet');
+  const ResetBtn=document.getElementById('Reset');
+  const DecrementBtn=document.getElementById('Decrement');
 
 
+  let counterValue=0;
 
-function changebackground(){
-    document.querySelector('.btnclick').style.backgroundColor='green';
-    console.log("testing");
-}
+  incrementBtn.addEventListener('click',function (event){           //to adding button funtion
+     counterValue+=1                                                 //countervalue+1
+
+  })

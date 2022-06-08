@@ -1,0 +1,39 @@
+body
+{
+   background-color: black;
+}
+.button
+{
+    
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #0000;
+    font-size: 50px;
+    
+}
+
+main
+{
+    text-align: center;
+     padding-top: 170px;
+     color: #fff
+}
+#counter
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+#Incremet
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+#Reset{
+    font-size: 20px;
+    font-weight: bold;
+}
+#Decrement
+{
+    font-size: 20px;
+    font-weight: bold;
+}
