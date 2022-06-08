@@ -1084,16 +1084,18 @@
     
 //    });
 
-   const promise = new Promise((resolve,riject)=>{
-     riject("feald");                  //this is api
-})
+//    const promise = new Promise((resolve,riject)=>{
+//      riject("feald");                  //this is api
+// })
 
 
-promise.then((Response)=>{                //this is eerror funtion.this avvoid it used to catch metthod
-     console.log(Response)           //catch are  used to handle in error message
-}).catch((Error)=>{
-     console.log(Error)
-})
+// promise.then((Response)=>{                //this is eerror funtion.this avvoid it used to catch metthod
+//      console.log(Response)           //catch are  used to handle in error message
+// }).catch((Error)=>{
+//      console.log(Error)
+// })
+
+
 
 
 
@@ -1181,8 +1183,21 @@ promise.then((Response)=>{                //this is eerror funtion.this avvoid i
      // }
 
      // hello();
+          
+     //this keyword
 
+ 
+
+     const person = {
+          fullName:'athif',
+          lastNmae:'binu',
+          Place:'Koorad',
+         fullName() {
+               console.log(this)
+          }
+     }
      
+  console.log(person.fullName());
 
 
 
