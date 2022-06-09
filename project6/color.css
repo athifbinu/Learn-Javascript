@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#canavas
+{
+    border: solid 2px black;
+}
+#color{
+    padding: 0px;
+    border: none;
+    background: none;
+    height: 44px;
+    width: 44px;
+}
+#Thickness
+{
+    padding: 10px;
+}
