@@ -8,7 +8,7 @@
 
   let counterValue=0;
 
-  incrementBtn.addEventListener("click",function (event){           
+  incrementBtn.addEventListener("click",function (value){           
      counterValue+=1;
      counter.innerHTML=counterValue                                                          
 
@@ -16,14 +16,14 @@
 
 
 
-  DecrementBtn.addEventListener("click",function (event){           
+  DecrementBtn.addEventListener("click",function (value){           
     counterValue-=1;     
     counter.innerHTML=counterValue                                        
 
  })
 
 
- ResetBtn.addEventListener("click",function (event){           
+ ResetBtn.addEventListener("click",function (value){           
     counterValue=0;     
     counter.innerHTML=counterValue                                        
 
