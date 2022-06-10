@@ -2,6 +2,7 @@ const form =document.getElementById('shop-form');
 const ItemName=document.getElementById('item-name');
 const ItemQty=document.getElementById('item-qty');       //to fetching all html in to javascript
 const list = document.getElementById('list');
+const alert=document.getElementById('alert');
 
 
 form.addEventListener('submit', function(event){
@@ -20,9 +21,16 @@ form.addEventListener('submit', function(event){
         `;
 
         list.appendChild(tr);
-         ItemName.value = '';
+         ItemName.value = '';        //to remove the screen display on the working tyme
          ItemQty.value = '';
-         
+         alert.classList.add('alert-success');
+         alert.innerHTML = 'item Added successfully !';
+        setTimeout(function(){
+            alert.classList.remove('alert-success');
+            alert.innerHTML = '';
+        },3000)
+
+
     }
 
 })
