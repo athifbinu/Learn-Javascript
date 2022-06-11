@@ -63,9 +63,10 @@ form.addEventListener('submit', function(event){
 
     // Deleat
     list.addEventListener('click',function(event){
-          if(event.target.classList.contains('btn')){
-              event.target.parentElement.parentElement.remove();
-          }
+         if(event.target.classList.contains('btn')){
+             let items=JSON.parse(window.localStorage.getItem('items'));
+             event.target.parentElement.parentElement.remove();
+         }
     })
 
 
