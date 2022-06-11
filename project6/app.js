@@ -65,6 +65,11 @@ form.addEventListener('submit', function(event){
     list.addEventListener('click',function(event){
          if(event.target.classList.contains('btn')){
              let items=JSON.parse(window.localStorage.getItem('items'));
+             const id=event.target.parentElement.parentElement.getAttribute('id');
+             items=items.filter(function(item){
+                 return item.id != id;
+             })
+             window.localStorage.setItem('items',JSON.stringify(items));
              event.target.parentElement.parentElement.remove();
          }
     })
