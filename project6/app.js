@@ -11,6 +11,7 @@ document.addEventListener('DomContentLoaded',function(){
         
         `
     })
+    
 })
 
 
@@ -49,7 +50,7 @@ form.addEventListener('submit', function(event){
         alert.classList.add('alert-warning');
         alert.innerHTML = 'Please Add Items !';
         setTimeout(function(){
-            alert.classList.remove('alert-warning');
+            alert.classList.remove('alert-warning');   //button no data clicking alert meassage
             alert.innerHTML = '';
         },3000)
     }
@@ -57,7 +58,7 @@ form.addEventListener('submit', function(event){
     // Deleat
     list.addEventListener('click',function(event){
           if(event.target.classList.contains('btn')){
-              
+              event.target.parentElement.parentElement.remove();
           }
     })
 
