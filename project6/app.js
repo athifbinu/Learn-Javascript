@@ -8,6 +8,10 @@ document.addEventListener('DomContentLoaded',function(){
     items.forEach(function(Item){
         const tr=document.createElement('tr');
         tr.innerHTML = `
+        <td>${Item.id}</td>
+        <td>${Item.name}</td>
+        <td>${Item.qty}</td>
+        <td><button class='btn btn-danger'>Deleat</button></td>
         
         `
     })
