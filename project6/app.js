@@ -4,16 +4,18 @@ const ItemQty=document.getElementById('item-qty');       //to fetching all html 
 const list = document.getElementById('list');
 const alert=document.getElementById('alert');
 document.addEventListener('DomContentLoaded',function(){
-    const items=JSON.parse(window.localStorage.getItem('items'))
+    const Items=JSON.parse(window.localStorage.getItem('items'))
     items.forEach(function(Item){
         const tr=document.createElement('tr');
+        tr.setAttribute('id','${item.id}');
         tr.innerHTML = `
         <td>${Item.id}</td>
         <td>${Item.name}</td>
         <td>${Item.qty}</td>
         <td><button class='btn btn-danger'>Deleat</button></td>
         
-        `
+        `;
+        list.appendChild(tr);
     })
     
 })
