@@ -1217,27 +1217,171 @@
 
 
 
-const redbtn=document.getElementById('red');
-const yellowbtn=document.getElementById('yellow');
-const clearBtn=document.getElementById('clear');
+// let a=document.querySelectorAll(".head1");
+
+// a[0].innerHTML=("Text Changed")
+
+// a[0].innerHTML=("Learn")
+// a[1].style.color="red";
+// a[2].style.backgroundColor="green";
 
 
 
-redbtn.addEventListener("click",function(value){
-    document.body.style.backgroundColor = "red";
-})
-
-yellowbtn=addEventListener("click",function(value){
-    document.body.style.backgroundColor = "yellow";
-})
-
-clearBtn=addEventListener("click",function(value){
-    document.body.style.backgroundColor
-})
+// const result1=document.createElement("h1");
 
 
+// function create(){
+//     result1.innerHTML = "Athif is hacked you";
+//     document.body.appendChild(result1);
+// }
 
 
+// function remove(){
+//     result1.remove();
+// }
+
+
+// const result2=document.querySelector(".message");
+// const teste1=document.querySelector(".test");
+
+
+// function hello(){
+//     result2.innerHTML=teste1
+// }
+
+
+// const textresult=document.getElementById("name");
+
+// const clr=document.getElementById("btn");
+
+// clr.addEventListener("click",changeclr);
+
+// function changeclr(){
+//     textresult.style.backgroundColor="red";
+// }
+
+
+
+//craeEliment
+// const para=document.createElement("p");
+
+// para.innerHTML = "This is a paragraphe";
+
+// document.body.appendChild(para);
+
+
+
+
+
+// function myfuction(){
+//     const list = document.querySelector('.mylist');
+//     list.removeChild(list.firstElementChild);
+
+// }
+
+
+
+// const Btnclick=document.querySelector(".btn");
+// Btnclick.addEventListener("click",colorchange);
+
+
+// function colorchange(){
+//     document.body.style.backgroundColor = "green";
+// }
+// const removebtn=document.querySelector(".remove");
+
+// removebtn.addEventListener("click",rmv);
+
+// function rmv(){
+//     document.body.style.backgroundColor = "";
+// }
+
+
+
+// const redbtn=document.querySelector(".red");
+// const greenbtn=document.querySelector(".green");
+// const yellowbtn=document.querySelector(".yellow");
+
+
+
+
+
+// const removebtn=document.querySelector(".remove");
+
+
+
+// redbtn.addEventListener("click",redclr);
+
+// function redclr(){
+//     document.body.style.backgroundColor ="red";
+// }
+
+
+// greenbtn.addEventListener("click",greenclr);
+
+// function greenclr(){
+//     document.body.style.backgroundColor="green";
+// }
+
+
+// yellowbtn.addEventListener("click",yellowclr);
+
+// function yellowclr(){
+//     document.body.style.backgroundColor="yellow"
+// }
+
+
+// redbtn.addEventListener("click",rsbtn);
+
+// function rsbtn(){
+//     document.body.style.backgroundColor="";
+// }
+
+
+
+// function valdate(){
+//     var username=document.getElementById("username");
+//     var email=document.getElementById("email")
+//     var password=document.getElementById("password")
+//     var cpassword=document.getElementById("cpassword")
+
+//     if(username.value==""){
+//         alert("muast have a   username");
+//         document.form1.username.focus();
+//         return false;
+//     }
+//     if(email.value==""){
+//         alert("muast have a   email");
+//         document.form1.email.focus();
+//         return false;
+//     }
+//     if(password.value==""){
+//         alert("muast have a   password");
+//         document.form1.password.focus();
+//         return false;
+//     }
+//     if(cpassword.value=="" || cpassword.value!=password.value){
+//         alert("muast have a   conformation");
+//         document.form1.cpassword.focus();
+//         return false;
+//     }
+//     return true;
+ 
+// }
+
+
+const emails=document.querySelector(".email");
+const submits=document.querySelector(".submit");
+
+
+submits.addEventListener("click",sub);
+
+function sun(){
+    if(emails==""){
+        alert("ples enter email adress");
+    }
+}
+ 
 
 
 

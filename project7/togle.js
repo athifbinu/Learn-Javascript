@@ -7,3 +7,5 @@ const navMenu = document.querySelector(".nav-menu");          //togle text eg ..
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
+
+

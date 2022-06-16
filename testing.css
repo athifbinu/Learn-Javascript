@@ -1,30 +1,21 @@
-.button
-{
-    text-align: center;
-    margin-top: 150px;
-   
-
+.container{
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 60px 5px;
+    margin-top: 87px;
     
 }
-#red{
-    background-color: red;
-    color: #fff;
+.remove{
+    margin-top: 90px;
+    margin-left: 44px;
+    font-size: 23px;
+    font-family: sans-serif;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
 }
-#yellow{
-    background-color: yellow;
-    color: black;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#clear{
-   
-    color:black;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-

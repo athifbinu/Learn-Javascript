@@ -1,5 +1,5 @@
 
-  const counter=document.getElementById('counter');
+  const counter=document.getElementById('counter');           //screen
   const incrementBtn=document.getElementById('Incremet');
   const DecrementBtn=document.getElementById('Decrement');
   const ResetBtn=document.getElementById('Reset');
