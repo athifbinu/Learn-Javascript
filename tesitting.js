@@ -1370,22 +1370,46 @@
 // }
 
 
-const emails=document.querySelector(".email");
-const submits=document.querySelector(".submit");
+// const emails=document.querySelector(".email");
+// const submits=document.querySelector(".submit");
 
 
-submits.addEventListener("click",sub);
+// submits.addEventListener("click",sub);
 
-function sun(){
-    if(emails==""){
-        alert("ples enter email adress");
-    }
-}
+// function sun(){
+//     if(emails==""){
+//         alert("ples enter email adress");
+//     }
+// }
+  
+//  const screen=document.querySelector(".form-control");
+
+// function clearBtn(){
+//    screen.value="";
+   
+// }
+
+
+
+
  
 
+// function validate(){
+//     const username=document.getElementById("username").value;
+//     const password=document.getElementById("password").value;
+//     if(username=="admin" && password=="user")
+//     {
+//         alert("loging successdully");
+//         return false;
+//     }
+//     else
+//     {
+//         alert("loging falied");
+//     }
+// }
 
 
-
+document.getElementById("")
 
 
 
