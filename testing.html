@@ -1,119 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="testing.css">
-    <script src="tesitting.js"></script>
-    CSS only
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="testing.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-
-<!-- 
-    <input type="button" value="create" onclick=" create()">
-    <input type="button" value="remove" onclick="remove()">
-
-    <button class="message" onclick="alert('athif is hacked you')">click me</button>
-     
-    <h1 id="name">Hello athif</h1>
-    <input type="button" id="btn" value="click me">
-
-    <li class="special">heloo</li>
-
-
-    <ul class="data">
-        <li>cofee</li>
-        <li>tea</li>
-    </ul>
-
-    <div id="top">
-        <div id="nested">how are you</div>
-      </div>
-
-      <h2 id="tittle">Were are You</h2>
-      <ul id="myList">
-        <li>orange</li>
-        <li>pears</li>
-        <li class="Persitem"></li>
-        <li>Bnanna</li>
-      </ul>
-
-
-      <button onclick="myfuction()">Remove</button>
-      <button class="btnclick">create</button>
- 
-
-      <ul class="mylist">
-        <li>cofee</li>
-        <li>tea</li>
-        <li>juce</li>
-      </ul>      
-
    
- --> -->
-<!-- <div class="container">
-  <button class="red">red</button>
-  <button class="green">green</button>
-  <button class="yellow">yellow</button>
-
-
-  <button class="remove">Remove</button>
+  <main class="d-flex justify-content-center alighn-items-center top">
+    <div class="card p-3">
+        <div id="alert" class="alert"></div>
+        <h2 class="text-muted text-center">Shop list</h2>
+     <form id="shop-form">
+         <div class="mb-3">
+             <label for="item-name" class="form-label">User Name</label>
+             <input type="text" id="item-name" class="form-control">
+         </div>
+         <div class="mb-3">
+             <label for="item-qty" class="form-label">Password</label>
+             <input type="number" id="item-qty" class="form-control">
+         </div>
+         <div class="mb-3 d-grid">
+             <button type="submit" class="btn btn-primary">Add Items</button>
+         </div>
+     </form>
+    </div>
   
-</div>
-
-<li>cofee</li>
-<li>tea</li>
-<li>water</li>
-
-<p class="demo"></p>
- -->
 
 
-  <!-- <h1>register</h1>
-  <form action="" name="form1" method="post" onsubmit="return validate()">
-    <label for="">username</label>
-    <input type="text" name="username" id="username"><br><br>
-    <label for="">email</label>
-    <input type="email" name="email" id="email"><br><br>
-    <label for="">password</label>
-    <input type="passwod" name="password" id="password"><br><br>
-    <label for="">coformation passwod</label>
-    <input type="passwod" name="cpasswod" id="cpassword"><br><br>
-    <input type="submit" value="register">
-  </form>  -->
+</main>    
 
 
-  <div class="imgTesting">
-    <div class="card text-center  border-3 border-warning " style="width: 18rem;margin-top: 15px;">
-        <img class="card-img-top" src="img/ipone" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Pedigree</h5>
-          <p class="card-text">Normel Pedigree Is 26% Protin They Can be Helps To Helthy Life For Your Pets</p>
-          <h2 class="raite">Rs 290</h2>
-          <a href="loging.html" class="btn btn-primary">Order Now</a>
-        </div>
-      </div>
-</div>
+<!-- Table -->
+<section class="mt-2">
+ <div class="container">
+     <table class="table table-bordered">
+         <thead>
+             <th>ID</th>
+             <th>Item Name</th>
+             <th>Item Qty</th>
+             <th>Remove</th>
+         </thead>
+         <tbody id="list">
 
+         </tbody>
+     </table>
+ </div>
+</section>
 
-<!-- 
- <form class="box" action="loging.html" method="post">
-  <h1>
-    loging
-  </h1>
-  <input type="text" name="" placeholder="Enter Username" id="username">
-  <input type="pasword" name="" placeholder="enter passwod" id="password">
-  <input type="submit" name="" value="Loging">
-</form> -->
-
-
-
-
-   
+  
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+<script src="tesitting.js"></script>
 </html>
+
+
+
+
+
+
