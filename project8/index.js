@@ -1,12 +1,19 @@
-const form =document.getElementById('shop-form');
-const ItemQty=document.getElementById('item-qty');       //to fetching all html in to javascript
-const list = document.getElementById('list');
 
 
-form.addEventListener('submit',function(event){
-    event.preventDefault();     //preventdeveult are used to avoid refreshig 
-    if(ItemQty.value =!''){
-      alert("hello")
+
+  const username=document.getElementById("username");
+  const password=document.getElementById("password");
+  const logingbtn=document.querySelector(".signin");
+
+  logingbtn.addEventListener("click",(e)=>{
+    if(username.value === "admin" && password.value === "123"){
+      alert("login Success");
+    }else {
+      alert("Ples fill corectly");
     }
-})
+  })
+ 
+
+
+
 
