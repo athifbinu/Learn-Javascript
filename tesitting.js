@@ -1173,11 +1173,11 @@
 //                   find minum and maximum value 
 
 
-//       const maximun=Math.max(10,20,50,80,100,500,200);
-//       const Minimum=Math.min(10,20,50,80,100,500,200)
+    //   const maximun=Math.max(10,20,50,80,100,500,200);
+    //   const Minimum=Math.min(10,20,50,80,100,500,200)
 
 
-//       console.log(maximun,Minimum);
+    //   console.log(maximun,Minimum);
 
 
 //      deastructuring
@@ -1409,7 +1409,38 @@
 // }
 
 
-document.getElementById("")
+// const form=document.getElementById("shop-form");
+// const itemQty=document.getElementById('item-qty');
+// const list=document.getElementById('list')
+// const alert=document.getElementById('alert')
+
+
+
+
+// const form =document.getElementById('shop-form');
+// const ItemName=document.getElementById('item-name');
+// const ItemQty=document.getElementById('item-qty');       //to fetching all html in to javascript
+// const list = document.getElementById('list');
+
+
+
+
+
+
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
+//     if(itemQty.value =! ''){
+//         const tr=document.createElement('tr');
+//         const rand=Math.floor((Math.random() * 1000) +1); //To craete id Number in 1 to 1000 any number
+//         tr.innerHTML = ` 
+//         <td>${rand}</td>
+//         <td>${itemQty.value}</td>
+//         <td><button class="btn btn-danger">Deleat</button></td>
+//         `
+
+//     }
+// })
+
 
 
 
