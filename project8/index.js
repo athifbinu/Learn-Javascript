@@ -4,7 +4,7 @@ const list = document.getElementById('list');
 
 
 form.addEventListener('submit',function(event){
-    event.preventDefault();
+    event.preventDefault();     //preventdeveult are used to avoid refreshig 
     if(ItemQty.value =!''){
       alert("hello")
     }

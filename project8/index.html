@@ -6,48 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-        
-    <main class="d-flex justify-content-center alighn-items-center top">
-        <div class="card p-3">
-            <div id="alert" class="alert"></div>
-            <h2 class="text-muted text-center">Shop list</h2>
-         <form id="shop-form">
-             <div class="mb-3">
-                 <label for="item-qty" class="form-label" style="color: black;">Item Quntity</label>
-                 <input type="text" id="item-qty" class="form-control">
-             </div>
-          
-             <div class="mb-3 d-grid">
-                 <button type="submit" class="btn btn-primary">Add Items</button>
-             </div>
-         </form>
+    <div class="full-screen">
+        <div class="loging-container">
+            <div class="loging-tittle">
+                <p class="loging-tittle1">SIGN IN</p>
+                <p>SIGN UP</p>
+                
+            </div>
+            <form class="container-data">
+                <label class="user">Username</label><br>
+                <input class="box" type="text"><br>
+                <label class="user">Password</label><br>
+                <input class="box" type="text"><br>
+                <br>
+                <div class="check-box">
+                    <input type="checkbox">
+                </div>
+                <p class="check-text">keep me signed in</p>
+                <p class="forgoat">Forgot Password?</p>
+                
+              
+
+                <button class="signin">Sign In</button>
+            </form>
         </div>
-      
-
-
-    </main>    
-    
-
-    <!-- Table -->
- <section class="mt-2">
-     <div class="container">
-         <table class="table table-bordered">
-             <thead>
-                 <th>ID</th>
-                 <th>Item Name</th>
-                 <th>Item Qty</th>
-                 <th>Remove</th>
-             </thead>
-             <tbody id="list">
-
-             </tbody>
-         </table>
-     </div>
- </section>
-
+    </div>
 </body>
-<script src="index.js"></script>
 </html>
