@@ -1173,11 +1173,13 @@
 //                   find minum and maximum value 
 
 
-    //   const maximun=Math.max(10,20,50,80,100,500,200);
-    //   const Minimum=Math.min(10,20,50,80,100,500,200)
+      // const maximun=Math.max(10,20,50,80,100,500,200);
+      // const Minimum=Math.min(10,20,50,80,100,500,200);
 
 
-    //   console.log(maximun,Minimum);
+
+
+      // console.log(maximun,Minimum);
 
 
 //      deastructuring
@@ -1444,15 +1446,17 @@
 
 
 
+  //keyevents
 
+//onkeyxpress
 
+const Btnclick=document.querySelector(".submit");
 
+Btnclick.addEventListener("click",result);
 
-
-     
-
-
-     
+function result(){
+  document.body.style.backgroundColor="green";
+}
   
 
 
