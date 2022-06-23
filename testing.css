@@ -1,9 +1,4 @@
-.top{
-    margin-top: 2rem;
-}
-.card{
-     width: 20rem;
-     color: white;
-   
- 
+.box{
+    width: 100px;
+    height: 100px;
 }
