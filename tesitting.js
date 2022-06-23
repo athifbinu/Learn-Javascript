@@ -1462,19 +1462,13 @@
 //   },2000)
 // },1000)
 
-const success=new Promise((resole,riject)=>{
-  const rand= Math.random();
-  if(rand<0.5) {
-    resole();
-  }
-  else{
-    riject();
-  }
-})
 
-success.then(()=>{
-  console.log("hello");
-})
+// hoisting
+// Myname("Athif");
+
+// function Myname(result){
+//   console.log("my Name is"+result);
+// }
 
 
 
