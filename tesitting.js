@@ -1447,21 +1447,34 @@
 
 
 
-const Btnclick=document.querySelector('.submit');
+// const Btnclick=document.querySelector('.submit');
 
-setTimeout(()=>{
-  Btnclick.style.transform=`translateX(100px)`;
-  setTimeout(()=>{
-    Btnclick.style.transform=`translateX(200px)`;
-    setTimeout(()=>{
-      Btnclick.style.transform=`translateX(300px)`;
-      setTimeout(()=>{
-        Btnclick.style.transform=`translateX(400px)`;
-      },2000)
-    },2000)
-  },2000)
-},1000)
+// setTimeout(()=>{
+//   Btnclick.style.transform=`translateX(100px)`;
+//   setTimeout(()=>{
+//     Btnclick.style.transform=`translateX(200px)`;
+//     setTimeout(()=>{
+//       Btnclick.style.transform=`translateX(300px)`;
+//       setTimeout(()=>{
+//         Btnclick.style.transform=`translateX(400px)`;
+//       },2000)
+//     },2000)
+//   },2000)
+// },1000)
 
+const success=new Promise((resole,riject)=>{
+  const rand= Math.random();
+  if(rand<0.5) {
+    resole();
+  }
+  else{
+    riject();
+  }
+})
+
+success.then(()=>{
+  console.log("hello");
+})
 
 
 
