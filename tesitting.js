@@ -1472,8 +1472,23 @@
 
 
 const xhr= new XMLHttpRequest();
-xhr.open("get","https://jsonplaceholder.typicode.com/posts")
+xhr.open("get","https://jsonplaceholder.typicode.com/postss")
 xhr.send();
+
+
+xhr.onreadystatechange=function(){
+      if(xhr.readyState==4){
+            
+
+            if(xhr.status==200){
+                  alert("Seccess")
+            }
+            else{
+                  alert("error")
+            }
+      }
+}
+
 
 
 
