@@ -1471,6 +1471,9 @@
 // }
 
 
+const xhr= new XMLHttpRequest();
+xhr.open("get","https://jsonplaceholder.typicode.com/posts")
+xhr.send();
 
 
 
