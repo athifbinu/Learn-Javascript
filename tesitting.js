@@ -1471,25 +1471,34 @@
 // }
 
 
-const xhr= new XMLHttpRequest();
-xhr.open("get","https://jsonplaceholder.typicode.com/postss")
-xhr.send();
+// const xhr= new XMLHttpRequest();
+// xhr.open("get","https://jsonplaceholder.typicode.com/postss")
+// xhr.send();
 
 
-xhr.onreadystatechange=function(){
-      if(xhr.readyState==4){
+// xhr.onreadystatechange=function(){
+//       if(xhr.readyState==4){
             
 
-            if(xhr.status==200){
-                  alert("Seccess")
-            }
-            else{
-                  alert("error")
-            }
-      }
-}
+//             if(xhr.status==200){
+//                   alert("Seccess")
+//             }
+//             else{
+//                   alert("error")
+//             }
+//       }
+// }
 
-
+const getapi= new XMLHttpRequest();
+getapi.addEventListener('load',()=>{
+      console.log('it worked');
+})
+getapi.addEventListener('error',()=>{
+      console.log('errpr!!')
+});
+getapi.open('GET','https://jsonplaceholder.typicode.com/photos');
+getapi.send();
+console.log("Requst sent");
 
 
 
