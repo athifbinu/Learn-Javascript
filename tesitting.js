@@ -1033,24 +1033,48 @@
 // graet();
 
 
-//            callback funtion
+//                      callback funtion
 
-//           function add(num1,num2,callback) {
-//                let err=false
-//                if(num1==0){
-//                     err=true
-//                }
-//                callback(num1+num2,err)
-//           }
+          // function add(num1,num2,callback) {
+          //      let err=false
+          //      if(num1==0){
+          //           err=true
+          //      }
+          //      callback(num1+num2,err)
+               
+          // }
 
 
-//           add(0,20,(sum,err)=>{
-//                if(err){
-//                     console.log("first number is Zero");
-//                }else{
-//                     console.log(sum);
-//                }
-//           })
+          // add(0,20,(sum,err)=>{
+          //      if(err){
+          //           console.log("first number is Zero");
+          //      }else{
+          //           console.log(sum);
+          //      }
+          // })
+
+          //  const dt=new Date()  //starting tyme
+          // console.log('starting')
+          // for(i=0;i<1000;i++){
+          //   console.log('Athif')
+          // }
+
+          // console.log('end')
+          // var diff=new Date()-dt   //ending tyme   old-new=Totel tyme
+          // console.log(diff);
+
+          // function showend(){
+          //   console.log("end")
+          // }
+
+          // console.log("sarted")
+          // setTimeout(showend,2000)
+
+          // console.log("sarted")
+          // setTimeout(showend,2000)
+
+          // console.log("sarted")
+          // setTimeout(showend,2000)
  
 
 //           promice
@@ -1528,6 +1552,132 @@
 
 //  localStorage
 
-localStorage.setItem
-localStorage.getItem
-localStorage.removeItem("");    //to remove an item in localstorage using removeitem
+
+// const obj={
+//   id:0,
+//   name:"Athif",
+
+// };
+
+// localStorage.setItem("data",JSON.stringify(obj))
+
+// console.log(JSON.parse(localStorage.getItem("data")));
+
+
+// const input=document.querySelector("input");
+// const loging=document.querySelector("#loging");
+// const logout=document.querySelector("#loagOut");
+
+
+// loging.onclick=()=>{
+//   if(input.value) {
+//     localStorage.getItem("tokens",input.value);
+//     h1.innerText="Welcome user";
+//   }
+// };
+
+// logout.onclick=()=>{
+//   localStorage.clear();
+//   location.reload();
+// }
+
+
+// object constructer
+
+// class employee {
+//   constructor() {
+//     this.id=101
+//     this.name="Athif"
+//   }
+// }
+// const hello = new employee()
+// console.log(hello.id+" "+hello.name);
+
+
+  // class Hello{
+  //   constructor(num1,num2){
+  //     this.num1=num1;
+  //     this.num2=num2
+  //   }
+
+  //   hello(){
+  //     console.log(this.num1+this.num2)
+  //   }
+
+
+  // }
+
+
+  // let ob=new Hello(10,20);
+  // ob.hello();
+
+// exeption
+
+
+
+// console.log("staeted");
+// let a;
+// try {
+//   a=getval1();
+
+// }catch(l){
+//   a=2;
+// }finally{
+//   console.log("its finely")
+// }
+
+
+// const b=getval2();
+
+// const result=processvalues(a,b);
+
+// console.log(result);
+
+// console.log("ended");
+
+// function getval1() {
+//   hello()
+//   return 12;
+// }
+// function getval2(){
+//   return 15;
+// }
+
+// function processvalues(a,b){
+//   return a+b;
+// }
+
+
+// console.log("runnig 1");
+// setTimeout(function(){console.log("runnig 2")},3000);
+// setTimeout(function(){console.log("running 3")},0);
+
+// console.log("runnig 4")
+
+// function sum(x = 3, y = 5) {
+
+//   // return sum
+//   return x + y;
+// }
+
+// console.log(sum(5, 15));  
+// console.log(sum(7));        
+// console.log(sum());         
+
+
+
+// function hello(num2=100,num2){   //this is defualt arguments
+//   console.log(num1+num2)
+// }
+
+// hello(undefined,20);
+
+
+
+//module
+
+
+
+
+
+
