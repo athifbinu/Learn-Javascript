@@ -1674,10 +1674,12 @@
 
 
 
-//module
+//module node js
 
 
+var h=require("./module")
+h.hello();
 
-
+console.log(h.hey)
 
 
