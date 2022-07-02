@@ -544,7 +544,7 @@
 
 // const [a,b,c,d] = globelPlayer;
 
-// console.log(b);
+// console.log(d);
 
 // const ArrDeastructuring=[1,2,3,4];
 // const [a,b,c,d] = ArrDeastructuring;
@@ -559,10 +559,9 @@
 // const globelPlayer1 =["ameen","abay","aswin"];
 
 
-//  const player = [...globelPlayer,...globelPlayer1,"Testing+"];  //adding to new in array
+//  const player = [...globelPlayer,...globelPlayer1];  //adding to new in array
 
 // console.log(player);
-
 
 
 //  let num1 = [10,20,50];
@@ -575,11 +574,12 @@
 //                    rest
 
 
-// const animal =["dog","tiger","cat"];
+function sum(...b){
+  console.log(b)
+}
+sum(5,6,8)
 
-// const arr = [a,b, ...rest]=arr;
 
-// console.log(a,b,rest);
 
 // function test(...remaining) {
 //      console.log(remaining)
@@ -1023,14 +1023,20 @@
 //      console.log("My name is Muhammed "+hello)
 // }
 
-
-
-
 // const graet= () =>{
 //      console.log("hi");
 // }
 
 // graet();
+
+
+
+
+// myname("Athif");
+// function myname(name) {
+//   console.log("My name is " + name)
+// }
+
 
 
 //                      callback funtion
@@ -1674,12 +1680,15 @@
 
 
 
+
 //module node js
 
 
-var h=require("./module")
-h.hello();
+// var h=require("./module")
+// h.hello();
 
-console.log(h.hey)
+// console.log(h.hey)
+
+
 
 
