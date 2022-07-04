@@ -574,10 +574,10 @@
 //                    rest
 
 
-function sum(...b){
-  console.log(b)
-}
-sum(5,6,8)
+// function sum(...b){
+//   console.log(b)
+// }
+// sum(5,6,8)
 
 
 
@@ -1690,5 +1690,75 @@ sum(5,6,8)
 // console.log(h.hey)
 
 
+// const t=require("./module");
+// t.server();
+
+
+
+//  funtional scope
+
+// let bird='crow';
+
+// function birds(){
+//   let bird='pigeon';
+//   console.log(bird)
+// }
+
+// birds();
+// console.log(bird)
+
+
+     //block scope
+
+// let animal=['elephent','dog','cat'];
+
+// let i=10;
+
+// for(let i=0;i<animal.length;i++){
+//   console.log(i,animal[i])
+// }
+// console.log(i);
+
+
+   //lexicel scope
+
+//    const fullName = "Oluwatobi Sofela";
+
+
+// function profile() {
+//   function sayName() {
+//     function writeName() {
+//       return fullName;
+//     }
+//     return writeName();
+//   }
+//   return sayName();
+// }
+
+// closures
+
+// function init() {
+//   var name = 'Mozilla'; // name is a local variable created by init
+//   function displayName() {
+//     // displayName() is the inner function, a closure
+//     console.log(name); // use variable declared in the parent function
+//   }
+//   displayName();
+// }
+// init();
+
+
+//find largest array
+function maximum(){
+  let array=[10,50,80,1,30,60];
+  let max=array[0];
+  for(let i=0;i<array.length;i++){
+      if(array[i]>max){
+          max=array[i]
+      }
+  }
+  console.log(`The largest number is ${max}`);
+}
+maximum();
 
 
