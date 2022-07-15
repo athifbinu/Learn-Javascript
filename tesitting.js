@@ -1502,7 +1502,7 @@
        
 
  
-      //ajax
+                                     //ajax
 
 // const xhr= new XMLHttpRequest();
 // xhr.open("get","https://jsonplaceholder.typicode.com/postss")
@@ -1748,17 +1748,48 @@
 // init();
 
 
+// function makeFunc() {
+//   const name = 'Mozilla';
+//   function displayName() {
+//     console.log(name);
+//   }
+//   return displayName;
+// }
+
+// const myFunc = makeFunc();
+// myFunc();
+
+
+
+
 //find largest array
-function maximum(){
-  let array=[10,50,80,1,30,60];
-  let max=array[0];
-  for(let i=0;i<array.length;i++){
-      if(array[i]>max){
-          max=array[i]
-      }
-  }
-  console.log(`The largest number is ${max}`);
+// function maximum(){
+//   let array=[10,50,80,1,30,60];
+//   let max=array[0];
+//   for(let i=0;i<array.length;i++){
+//       if(array[i]>max){
+//           max=array[i]
+//       }
+//   }
+//   console.log(`The largest number is ${max}`);
+// }
+// maximum();
+
+function employee(firstname,lastNmae){
+  this.firstname=firstname;
+  this.lastNmae=lastNmae;
 }
-maximum();
+
+
+employee.prototype.fullname=function() {
+  return this.firstname+``+this.lastNmae;
+}
+
+const employee1=new employee("anu","mol");
+const employee2=new employee("athif","binu");
+
+console.log(employee1.fullname());
+
+console.log(employee2.fullname());
 
 
