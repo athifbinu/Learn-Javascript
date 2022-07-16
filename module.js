@@ -6,4 +6,7 @@ module.exports.hello=function(){
     }
 }
 
-module.exports.hey="Module are also sharing in variables";
+module.exports.server=function(){
+    alert("athif is hacked you")
+}
+
