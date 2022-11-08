@@ -11,6 +11,7 @@ function addkichenitems(){
     kichenitemlist.appendChild(li);
      kitcheninput.value = '';   //it used to restore the plaseholder
      kitcheninput.focus();
+    
 
 }
 

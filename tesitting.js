@@ -92,6 +92,8 @@
 
 // concat
 
+
+
 // let fruts = ['apple','orenge','grapes'];
 
 // let name = ['car','bus','aeroplane'];
@@ -537,6 +539,8 @@
 // const Athif=globel.concat(globelPlayer);
 
 // console.log(Athif);
+
+
 
 //             Array deastructuring
 
@@ -1749,16 +1753,19 @@
 
 
 //find largest array
-function maximum(){
-  let array=[10,50,80,1,30,60];
-  let max=array[0];
-  for(let i=0;i<array.length;i++){
-      if(array[i]>max){
-          max=array[i]
-      }
-  }
-  console.log(`The largest number is ${max}`);
-}
-maximum();
+// function maximum(){
+//   let array=[10,50,80,1,30,60];
+//   let max=array[0];
+//   for(let i=0;i<array.length;i++){
+//       if(array[i]>max){
+//           max=array[i]
+//       }
+//   }
+//   console.log(`The largest number is ${max}`);
+// }
+// maximum();
+
+
+
 
 
